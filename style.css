@@ -1,0 +1,61 @@
+body{
+    background-image: url("images/dark-galaxy-background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    width: 500px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{ 
+    background: aquamarine; 
+    box-shadow: 0 0 100px aquamarine; 
+}
+
+.header1{
+    border-style: dotted;
+    color: aquamarine;
+    font-size: 155%;
+    font-family:unset;
+}
+
+.header2{
+    border-style: dotted;
+    color: aquamarine;
+    font-size: 155%;
+    font-family:unset;
+}
+
+.header3{
+    border-style: dotted;
+    color: aquamarine;
+    font-size: 155%;
+    font-family:unset;
+}
+
+.paragraph{
+    color: azure;
+    font-size: 135%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+.bottom{
+    font-family:unset;
+    color: aquamarine;
+    font-size: 50%;
+    border-style: dotted;
+    text-align: center;
+}
